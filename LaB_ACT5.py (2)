@@ -1,0 +1,12 @@
+while True:
+  classify_age = int(input("How old are u? "))
+  if classify_age >-1 and classify_age <= 12:
+      print("u're a child")
+  elif classify_age >12 and classify_age <= 19:
+      print("u're a teen")
+  elif classify_age >19 and classify_age <= 64:
+      print("u're a adult")
+  elif classify_age >64 and classify_age <= 100:
+      print("u're a senior")
+  else:
+      print("negative number.")
